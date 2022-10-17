@@ -28,11 +28,11 @@ int main(void)
 	else
 	{
 		putchar(',');
-		putchar('');
+		putchar(' ');
 	}
 	}
 	k++;
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
