@@ -3,8 +3,9 @@
 #include <time.h>
 
 /**
- * main - prints random number
+ * main - prints a random number of last digits
  *
+ *Return: Always 0
  */
 int main(void)
 {
