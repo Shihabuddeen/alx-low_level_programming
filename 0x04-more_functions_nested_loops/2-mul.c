@@ -2,8 +2,8 @@
 
 /**
  * mul - multiply two integers
- * @x: first integer
- * @y: second integer
+ * @x: first int
+ * @y: second int
  * Return: the multiplication of x and y
  */
 
