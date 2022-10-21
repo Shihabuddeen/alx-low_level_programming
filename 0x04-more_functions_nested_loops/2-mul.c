@@ -2,12 +2,12 @@
 
 /**
  * mul - multiply two integers
- * @x: first int
- * @y: second int
- * Return: the multiplication of x and y
+ * @a: first int
+ * @b: second int
+ * Return: the multiplication of a and b
  */
 
-int mul(int x, int y)
+int mul(int a, int b)
 {
-	return (0);
+	return (a * b);
 }
