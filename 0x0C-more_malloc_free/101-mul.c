@@ -72,6 +72,7 @@ int _checknum(char *argv[], int n)
 
 	return (ln);
 }
+
 /**
  * main - Entry point.
  * program that multiplies two positive numbers.
