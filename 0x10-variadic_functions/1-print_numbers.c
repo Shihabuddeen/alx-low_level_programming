@@ -1,7 +1,7 @@
 
 /*
  * File: 1-print_numbers.c
- * Auth: Theos 
+ * Auth: Theos
  */
 
 #include "variadic_functions.h"
