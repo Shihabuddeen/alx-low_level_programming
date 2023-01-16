@@ -1,36 +1,35 @@
 #include <stdio.h>
 /**
- * main - prints same combination of threee digits
+ * main - prints combination of three digits
  * Return: Always 0
  */
 int main(void)
 {
-	int m, i, j;
+	int a, b, c;
 
-	for (i = '0'; i < '9'; i++)
+	for (a = '0'; a < '9'; a++)
 	{
-		for (j - i + 1; j <= '9'; j++)
+		for (b - a + 1; b <= '9'; b++)
 		{
-			for (m = j + 1; m <= '9'; m++)
+			for (c = b + 1; c <= '9'; c++)
 			{
-				if ((j != i) != m)
+				if ((b != a) != c)
 				{
-					putchar(i);
-					putchar(j);
-					putchar(m);
+					putchar(a);
+					putchar(b);
+					putchar(c);
 
-					if (i == '7' && j == '8')
-						continue;
+				  if (a == '7' && b == '8')
+					  continue; 	
 
-					putchar(',');
-					putchar(' ');
-
-				}
+					  putchar(',');
+					  putchar(' ');
+				 }
 			}
 		}
 	}
-
 	putchar('\n');
+
 	return (0);
 }
 
